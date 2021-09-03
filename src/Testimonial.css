@@ -1,0 +1,122 @@
+.testimonial{
+    display: flex;
+    align-items: center;
+}
+.testimonial__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 220px;
+    width: 70%;
+    padding: 20px 40px 0px 40px;
+    text-align: left;
+}
+.testimonial__heading{
+    font-size: 1.1vw;
+    margin: 0;
+    margin-bottom: 6px;
+    color: #0073E0;
+}
+.testimonial__image{
+    width: 30%;
+}
+.testimonial__image > img{
+    flex: 1;
+}
+.testimonial__subHeading{
+    display: flex;
+}
+.testimonial__message{
+    position: relative;
+    font-size: 1.1vw;
+    font-weight: 400;
+    margin: 0;
+}
+.testimonial__message > i{
+    position: absolute;
+    top: -15%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: #0073E0;
+}
+.testimonial__para{
+    font-size: 15px;
+    margin: 0;
+    color: rgb(92, 92, 92);
+}
+.testimonial__footer{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.testimonial__footer__right > P{
+    display: flex;
+    align-items: center;
+}
+.testimonial__footer__right > P > i{
+    color: #0073E0;
+}
+
+@media screen and (max-width: 1500px) {
+    .testimonial__content{
+        height: 200px;
+    }
+    .testimonial__message{
+        font-size: 1.3vw;
+        margin: 0;
+    }
+  }
+  @media screen and (max-width: 1024px) {
+
+  }
+  @media screen and (max-width: 1024px) {
+  }
+  @media screen and (max-width: 500px) {
+    .testimonial{
+        flex-direction: column;
+        text-align: center;
+        min-height: 350px;
+    }
+    .testimonial__content{
+        width: 90%;
+        padding: 0 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .testimonial__image{
+        width: 35%;
+        border-radius: 50%;
+        padding: 8px;
+        border: 2px solid #0073E0;
+        overflow: hidden;
+    }
+    .testimonial__image > img{
+        border-radius: 50%;
+    }
+    .testimonial__message{
+        font-size: 4vw;
+        text-align: center;
+    }
+    .testimonial__footer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .testimonial__heading{
+        font-size: 5vw;
+        margin: 15px 0 10px 0;
+    }
+    .testimonial__para{
+        font-size: 14px;
+    }
+    .testimonial__footer__left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .testimonial__message > i{
+        position: static;
+        font-size: 24px;
+    }
+  }
