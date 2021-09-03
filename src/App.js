@@ -1,4 +1,4 @@
-import React, { useEffect, useState, CSSProperties } from 'react';
+import React, { useEffect, useState } from 'react';
 import './App.css';
 import { Testimonial } from './Testimonial';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
